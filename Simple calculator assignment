@@ -1,0 +1,23 @@
+def simple_calculator(x,y,op):
+  if op == "Addition":
+    print (x+y)
+  elif op == "Substraction":
+    print (x-y)
+  elif op == "Multiplication":
+    print (x*y)
+  elif op == "True division":
+    print (x/y)
+  elif op == "Floor division":
+    print (x//y)
+  elif op == "Modules":
+    print (x%y) 
+  elif op == "Exponentiation":
+    print (x**y)
+simple_calculator(10,4,"Addition") 
+simple_calculator(10,4,"Substraction")
+simple_calculator(10,4,"Multiplication")
+simple_calculator(10,4,"True division")
+simple_calculator(10,4,"Floor division division")
+simple_calculator(10,4,"Modules")
+simple_calculator(10,4,"Exponentiation")
+      
